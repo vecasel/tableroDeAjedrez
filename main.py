@@ -1,10 +1,10 @@
-import tkinter as tk
+import tkinter
 
 # Crear una ventana de tkinter
-root = tk.Tk()
+root = tkinter.Tk()
 
 # Crear un lienzo en la ventana con las dimensiones deseadas
-canvas = tk.Canvas(root, width=400, height=400)
+canvas = tkinter.Canvas(root, width=400, height=400)
 
 # Dibujar las casillas del tablero con un bucle for anidado
 # El rango de la variable 'i' es de 0 a 8 para cubrir 8 filas
